@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-signin-client_id"
+        content="167291593261-n4cco1vqlduo1etaid80gg806nblgvec.apps.googleusercontent.com">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="index.css">
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <img src="../ak.jpg" class="image" srcset="">
+        <a href="#" class="logo">Ak <span>Fitness</span></a>
+        <div class='bx bx-menu' id="menu-icon"></div>
+        <ul class="navbar">
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="../html/about.html">About</a></li>
+            <li><a href="../html/services.html">Services</a></li>
+            <li><a href="../html/pricing.html">Pricing</a></li>
+            <li><a href="../2 web/contact.html">Contact Us</a></li>
+        </ul>
+        <div class="top-btn">
+            <a href="#" class="nav-btn">Join Us</a>
+        </div>
+        <div class="top-btn">
+            <a href="index3.html" class="nav-btn">Log in</a>
+        </div>
+    </header>
+    <div class="contact-us">
+        <div class="title">
+            <h2>Contact <span>Us</span></h2>
+        </div>
+        <div class="box2">
+            <div class="contact form">
+                <h3>Send a message</h3>
+                <form>
+                    <div class="formBox">
+                        <div class="row50">
+                            <div class="inputbox">
+                                <span>First Name</span>
+                                <input type="text" name="name" placeholder="john" required>
+                            </div>
+                            <div class="inputbox">
+                                <span>Last Name</span>
+                                <input type="text" name="lastname" placeholder="john" required>
+                            </div>
+                        </div>
+
+                        <div class="row50">
+                            <div class="inputbox">
+                                <span>Email</span>
+                                <input type="email" name="email" placeholder="johndoe@gmail.com" required>
+                            </div>
+                            <div class="inputbox">
+                                <span>Subject</span>
+                                <input type="text" name="Subject" placeholder="type your issue" required>
+                            </div>
+                        </div>
+
+                        <div class="row100">
+                            <div class="inputbox">
+                                <span>Message</span>
+                                <textarea name="Message" placeholder="write your message" required></textarea>
+                            </div>
+                        </div>
+
+                        <div class="row100">
+                            <div class="inputbox">
+                              <input type="submit" onclick="submitBtn()"  value="Send">
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="contact info">
+                <h3>Contact info</h3>
+                <div class="infoBox">
+                    <div>
+                        <span><ion-icon name="location"></ion-icon></span>
+                        <p>shop no-21 first floor, Omaxe Galleria, Sector 14, Bahadurgarh, Haryana 124507</p>
+                    </div>
+
+                    <div>
+                        <span><ion-icon name="mail"></ion-icon></span>
+                        <a href="#">loremispum@gmail.com</a>
+                    </div>
+
+                    <div>
+                        <span><ion-icon name="call"></ion-icon></span>
+                        <a href="#">+91 9034331487</a>
+                    </div>
+                    <!-- social media -->
+                    <ul class="sci">
+                        <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
+                        <li><a href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
+                        <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- map  -->
+            <div class="contact map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3500.3888140119034!2d76.8961677793457!3d28.678013600000018!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d0df76aa8170d%3A0x9c1e2a637d0c75d5!2sAk%20fitness%20club!5e0!3m2!1sen!2sin!4v1737035474643!5m2!1sen!2sin"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script>
+    function submitBtn() {
+    location.href = "../index3.html"
+}
+</script>
+<script src="../index.js"></script>
+</body>
